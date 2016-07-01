@@ -1,0 +1,15 @@
+
+public class Programa {
+
+	
+	public static void main (String args[])
+	{
+		Mediador mediador_concreto = new Mediador_Concreto();
+		
+		Aluno A = new Aluno (mediador_concreto);
+		Professor P = new Professor (mediador_concreto);
+		
+		A.mediador_concreto.perguntar("Que dia é hoje?");
+		P.mediador_concreto.responder("21/04");
+	}
+}
