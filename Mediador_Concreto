@@ -1,0 +1,13 @@
+
+public class Mediador_Concreto implements Mediador{
+	
+	public void perguntar (String Pergunta)
+	{
+		System.out.println(Pergunta);
+	}
+	
+	public void responder (String Resposta)
+	{
+		System.out.println(Resposta);
+	}
+}
