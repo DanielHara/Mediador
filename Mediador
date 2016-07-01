@@ -1,0 +1,8 @@
+
+public interface Mediador {
+
+	public void perguntar (String Pergunta);
+	public void responder (String Resposta);
+	
+}
+
