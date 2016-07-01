@@ -1,0 +1,11 @@
+
+public class Aluno {
+
+	Mediador mediador_concreto;
+	
+	public Aluno (Mediador mediador_concreto)
+	{
+		this.mediador_concreto = mediador_concreto;
+	}
+	
+}
